@@ -1,0 +1,7 @@
+name: "${project.artifactId}"
+main: "${project.groupId}.${project.artifactId}"
+version: "${project.version}"
+description: "${project.artifactId}"
+author: "IronApollo"
+load: STARTUP
+api-version: 1.13
