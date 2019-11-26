@@ -36,7 +36,6 @@ public class IronChunkGenerator<C extends GeneratorSettingsDefault> extends Chun
 			settingsField = ChunkGenerator.class.getDeclaredField("settings");
 			settingsField.setAccessible(true);
 		} catch (NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
